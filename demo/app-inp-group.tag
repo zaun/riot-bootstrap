@@ -167,6 +167,23 @@
     &lt;/inp-group&gt;
   </highlight>
 
+  <h3>Dropdown Inputs</h3>
+
+  <section>
+    <p>
+      <inp-group size="lg">
+        <inp-group-addon>
+          <btn-group>
+            <btn toggle="menu">Default <caret /></btn>
+          </btn-group>
+        </inp-group-addon>
+        <inp placeholder="Dropdowns"></inp>
+      </inp-group>
+    </p>
+  </section>
+  <highlight>
+  </highlight>
+
   <style scoped>
     :scope {
       display: block;

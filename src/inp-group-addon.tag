@@ -58,6 +58,16 @@ import { parentScope } from 'riot-mixin-pack'
     }
 
     /**
+     * Button Groups
+     */
+
+    :scope btn-group {
+      display: inline;
+      vertical-align: inherit;
+      margin: -1px 0px 0px -1px
+    }
+
+    /**
      * Buttons
      */
 
@@ -77,7 +87,7 @@ import { parentScope } from 'riot-mixin-pack'
       vertical-align: inherit;
     }
 
-    btn button {
+    :scope btn button {
       padding: 6px 12px;
       margin: -7px -13px;
       vertical-align: inherit;
