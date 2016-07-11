@@ -1,5 +1,6 @@
 import riot from 'riot'
 import './app.tag'
+import './app-badge.tag'
 import './app-btn.tag'
 import './app-btn-group.tag'
 import './app-calendar.tag'

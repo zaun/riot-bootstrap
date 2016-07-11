@@ -1,4 +1,5 @@
 import 'sometime-riot'
+import './badge.tag'
 import './btn-group.tag'
 import './btn.tag'
 import './calendar.tag'
