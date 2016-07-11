@@ -20,6 +20,7 @@
   <app-inp></app-inp>
   <app-inp-group></app-inp-group>
   <app-input-img></app-input-img>
+  <app-icons></app-icons>
 
   <footer>
     <p>

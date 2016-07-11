@@ -59,7 +59,7 @@
     "eslint": "eslint src/*.js",
     "karma": "karma start test/karma.conf.js",
     "server": "browser-sync start --files 'dist/riot-bootstrap.js, dist/demo.js, dist/index.html' --server 'dist/'",
-    "watch": "chokidar 'src/*' 'demo/*' -c 'npm run build'",
+    "watch": "chokidar 'src/**/*' 'demo/*' -c 'npm run build'",
     "start": "npm run server & npm run watch",
     "prepublish": "npm run build"
   }
